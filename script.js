@@ -24,7 +24,7 @@ const productList = document.getElementById("product-list");
 products.forEach((product) => {
     const col = document.createElement("div");
     col.className = "col-md-4 mb-4";
-    col.innerHTML = 
+    col.innerHTML = `
   <div class="card h-100">
     <img src="${product.image}" class="card-img-top" alt="${product.name}">
     <div class="card-body d-flex flex-column">
@@ -33,6 +33,7 @@ products.forEach((product) => {
       <button class="btn btn-primary mt-auto" disabled>In den Warenkorb</button>
     </div>
   </div>
-;
+`;
+
     productList.appendChild(col);
 });
