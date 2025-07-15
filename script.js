@@ -3,19 +3,19 @@ const products = [
     id: 1,
     name: "Schraube",
     price: 4.99,
-    image: "",
+    image: "https://images.unsplash.com/photo-1614424428282-b2b1e72c6a4e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         id: 2,
         name: "Hammer",
         price: 29.99,
-        image: "",
+        image: "https://images.unsplash.com/photo-1679210208120-1b6a008be9b4?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         id: 3,
         name: "Meisel",
         price: 21.99,
-        image: "",
+        image: "https://images.unsplash.com/photo-1641893961390-2a76f05db7e9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
 ];
 
